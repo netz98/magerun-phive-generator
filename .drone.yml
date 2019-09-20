@@ -10,7 +10,7 @@ platform:
 steps:
 
 - name: verify
-  image: php-dev:7.1
+  image: cmuench/php-dev:7.1
   commands:
     - composer install
     - vendor/bin/phpunit

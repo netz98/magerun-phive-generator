@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository xmlns="https://phar.io/repository"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://phar.io/repository https://phar.io/data/repository.xsd">
+    <phar name="n98-magerun2.phar">
+        <release version="1.100.0" url="https://example.com/n98-magerun2-1.100.0.phar">
+            <signature type="gpg" />
+            <hash type="sha-256" value="9df3a015dd2efc8f7a3f90c1c3934f0241e8db350028690f2a4f3d9ed5ead047" />
+        </release>
+    </phar>
+</repository>

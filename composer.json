@@ -1,0 +1,28 @@
+{
+    "name": "n98/magerun-phive-generator",
+    "description": "Generates phive release XML file",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Münch",
+            "email": "c.muench@netz98.de"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "N98\\PhiveGenerator\\": "tests"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "N98\\PhiveGenerator\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "require": {
+        "composer/semver": "^1.4",
+        "symfony/dotenv": "^4.0"
+    }
+}
